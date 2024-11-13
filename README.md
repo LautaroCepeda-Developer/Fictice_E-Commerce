@@ -5,7 +5,7 @@ This project is the backend of a fictitious ecommerce, I carried out this projec
 
 This project helped me apply many concepts such as dependency injection, SOLID principles, layered architecture, object-oriented programming, data validation, algorithms and data structure among many other things.
 
-[!NOTE]  
+[!NOTE]
 This project is intended solely as a portfolio project.
 ## Features
 
@@ -20,7 +20,7 @@ This project is intended solely as a portfolio project.
 - Unique order number generation
 - Unique transaction number generation
 - Ban system with infraction limit
-- Custom http response messages
+- Custom  response messages
 
 ### What I learned
 
@@ -61,7 +61,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 
 ### User API
 #### GET methods
-```http
+```
   # Get all users
   GET /Fictice_E-Commerce/UserAPI/User
 
@@ -90,7 +90,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### POST methods
-```http
+```
   # Add user
   POST /Fictice_E-Commerce/UserAPI/User/
   body: {
@@ -122,7 +122,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### PUT methods
-```http
+```
   # Update user by id
   PUT /Fictice_E-Commerce/UserAPI/User/{id}
   body: {
@@ -178,7 +178,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### DELETE methods
-```http
+```
   # Delete user by id
   DELETE /Fictice_E-Commerce/UserAPI/User/{id}
 
@@ -196,7 +196,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 
 ### Public User API
 #### GET methods
-```http
+```
   # Get non-sensible data of all users
   GET /Fictice_E-Commerce/PublicUserAPI/PublicUser
 
@@ -206,7 +206,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 
 ### Ban API
 #### GET methods
-```http
+```
   # Get all banned users
   GET /Fictice_E-Commerce/BanAPI/BannedUser
 
@@ -223,7 +223,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
   GET /Fictice_E-Commerce/BanAPI/Infraction/{id}
 ```
 #### POST methods
-```http
+```
   # Ban user by id
   POST /Fictice_E-Commerce/BanAPI/BannedUser/{id}
   body: {
@@ -244,7 +244,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### PUT methods
-```http
+```
   # Updates ban info of a banned user by id
   PUT /Fictice_E-Commerce/BanAPI/BannedUser/{id}
   body: {
@@ -268,7 +268,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### DELETE methods
-```http
+```
   # Delete a banned user by id
   DELETE /Fictice_E-Commerce/BanAPI/BannedUser/{id}
 
@@ -278,7 +278,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 
 ### Product API
 #### GET methods
-```http
+```
   # Get all products
   GET /Fictice_E-Commerce/ProductAPI/Product/{id}
 
@@ -293,7 +293,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### POST methods
-```http
+```
   # Add product
   POST /Fictice_E-Commerce/ProductAPI/Product
   body: {
@@ -316,7 +316,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### PUT methods
-```http
+```
   # Update product by id
   PUT /Fictice_E-Commerce/ProductAPI/Product/{id}
   body: {
@@ -338,7 +338,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### DELETE methods
-```http
+```
   # Delete product by id
   DELETE /Fictice_E-Commerce/ProductAPI/Product/{id}
 
@@ -348,7 +348,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 
 ### Sale API
 #### GET methods
-```http
+```
   # Get all sales
   GET /Fictice_E-Commerce/SaleAPI/Sale
   
@@ -375,7 +375,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### POST methods
-```http
+```
   # Make a sale
   POST /Fictice_E-Commerce/SaleAPI/Sale/{paymentMethodId}
   body: {
@@ -405,20 +405,20 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### PUT methods
-```http
+```
   # Edit payment method by id
   PUT /Fictice_E-Commerce/SaleAPI/PaymentMethod/{id}
 ```
 
 #### DELETE methods
-```http
+```
   #Delete payment method by id
   DELETE /Fictice_E-Commerce/SaleAPI/PaymentMethod/{id}
 ```
 
 ### Company Data API
 #### GET methods 
-```http
+```
   # Get company data
   GET /Fictice_E-Commerce/CompanyDataAPI/CompanyData
 
@@ -426,7 +426,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
   GET /Fictice_E-Commerce/CompanyDataAPI/CompanyData/Tax
 ```
 #### POST methods
-```http
+```
   # Add company data
   POST /Fictice_E-Commerce/CompanyDataAPI/CompanyData
   body: {
@@ -440,7 +440,7 @@ To test my endpoints, perform the tests on Postman collections using the batch r
 ```
 
 #### PUT methods
-```http
+```
   # Updates the company data
   PUT /Fictice_E-Commerce/CompanyDataAPI/CompanyData
   body: {
