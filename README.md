@@ -54,7 +54,7 @@ This project made me face real-world problems that would occur in an application
 
 ## Running Tests
 
-To test my endpoints, perform the tests on Postman collections using the batch request execution tool and the Postman API that allows you to write tests in javascript code.
+To test the endpoints, I perform the tests on Postman collections using the batch request execution tool and the Postman API that allows you to write tests in javascript code.
 
 
 ## API Reference
