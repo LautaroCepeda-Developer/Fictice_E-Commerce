@@ -5,8 +5,8 @@ This project is the backend of a fictitious ecommerce, I carried out this projec
 
 This project helped me apply many concepts such as dependency injection, SOLID principles, layered architecture, object-oriented programming, data validation, algorithms and data structure among many other things.
 
-[!NOTE]
-This project is intended solely as a portfolio project.
+> [!NOTE]
+> This project is intended solely as a portfolio project.
 ## Features
 
 - User creation
